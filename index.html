@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerTrack | Placement Preparation</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+<header class="header">
+    <h1>CareerTrack</h1>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#applications">Applications</a>
+        <a href="#preparation">Preparation</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section id="dashboard" class="welcome">
+        <h2>Welcome to CareerTrack! 👋</h2>
+        <p>Plan your preparation. Track your progress. Build your career.</p>
+    </section>
+
+  <section class="stats">
+
+    <div class="card">
+        <h3>Total Applications</h3>
+        <p class="number" id="totalApplications">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Interviews</h3>
+        <p class="number" id="totalInterviews">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Skills in Progress</h3>
+        <p class="number" id="totalSkills">5</p>
+    </div>
+
+    <div class="card">
+        <h3>Overall Preparation</h3>
+        <p class="number" id="overallProgress">0%</p>
+        <progress id="overallProgressBar" value="0" max="100"></progress>
+    </div>
+
+</section>
+
+    <section id="applications" class="panel">
+
+        <h2>Job Application Tracker</h2>
+
+        <form id="applicationForm">
+
+            <input
+                type="text"
+                id="company"
+                placeholder="Company Name"
+                required
+            >
+
+            <input
+                type="text"
+                id="role"
+                placeholder="Job Role"
+                required
+            >
+            <input
+    type="date"
+    id="applicationDate"
+    aria-label="Application date"
+    required
+>
+
+<input
+    type="date"
+    id="followUpDate"
+    aria-label="Follow-up date"
+>
+
+            <select id="status">
+                <option value="Applied">Applied</option>
+                <option value="Assessment">Assessment</option>
+                <option value="Interview">Interview</option>
+                <option value="Selected">Selected</option>
+                <option value="Rejected">Rejected</option>
+            </select>
+
+            <button type="submit">Add Application</button>
+
+        </form>
+<!-- Search and Filter Applications -->
+
+<div class="application-controls">
+
+    <input
+        type="text"
+        id="searchApplication"
+        placeholder="Search by company or job role..."
+    >
+
+    <select id="filterStatus">
+        <option value="All">All Applications</option>
+        <option value="Applied">Applied</option>
+        <option value="Assessment">Assessment</option>
+        <option value="Interview">Interview</option>
+        <option value="Selected">Selected</option>
+        <option value="Rejected">Rejected</option>
+    </select>
+
+</div>
+    <!-- Job Application Table -->
+<div class="table-container">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Job Role</th>
+                <th>Application Date</th>
+                <th>Follow-Up Date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="applicationList">
+            <tr id="emptyMessage">
+                <td colspan="6">No applications added yet.</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</div>
+    </section>
+
+ <section id="preparation" class="panel">
+
+    <h2>Placement Preparation</h2>
+
+    <p>Track the subjects you are preparing for.</p>
+
+    <div class="skill">
+        <label for="dsaInput">Data Structures & Algorithms</label>
+
+        <div class="progress-controls">
+            <input type="number" id="dsaInput" min="0" max="100" value="0">
+            <span>%</span>
+            <button type="button" data-skill="dsa">Save Progress</button>
+        </div>
+
+        <progress id="dsa" value="0" max="100"></progress>
+        <p id="dsaText">0% completed</p>
+    </div>
+
+    <div class="skill">
+        <label for="dbmsInput">Database Management Systems</label>
+
+        <div class="progress-controls">
+            <input type="number" id="dbmsInput" min="0" max="100" value="0">
+            <span>%</span>
+            <button type="button" data-skill="dbms">Save Progress</button>
+        </div>
+
+        <progress id="dbms" value="0" max="100"></progress>
+        <p id="dbmsText">0% completed</p>
+    </div>
+
+    <div class="skill">
+        <label for="osInput">Operating Systems</label>
+
+        <div class="progress-controls">
+            <input type="number" id="osInput" min="0" max="100" value="0">
+            <span>%</span>
+            <button type="button" data-skill="os">Save Progress</button>
+        </div>
+
+        <progress id="os" value="0" max="100"></progress>
+        <p id="osText">0% completed</p>
+    </div>
+
+    <div class="skill">
+        <label for="networksInput">Computer Networks</label>
+
+        <div class="progress-controls">
+            <input type="number" id="networksInput" min="0" max="100" value="0">
+            <span>%</span>
+            <button type="button" data-skill="networks">Save Progress</button>
+        </div>
+
+        <progress id="networks" value="0" max="100"></progress>
+        <p id="networksText">0% completed</p>
+    </div>
+
+    <div class="skill">
+        <label for="oopsInput">Object-Oriented Programming</label>
+
+        <div class="progress-controls">
+            <input type="number" id="oopsInput" min="0" max="100" value="0">
+            <span>%</span>
+            <button type="button" data-skill="oops">Save Progress</button>
+        </div>
+
+        <progress id="oops" value="0" max="100"></progress>
+        <p id="oopsText">0% completed</p>
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>CareerTrack | Built as a Computer Science Engineering Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
