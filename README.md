@@ -1,17 +1,18 @@
 # CareerTrack — Smart Placement Preparation & Tracking System
 
-CareerTrack is a web-based application designed to help students organize their job applications and track their placement preparation progress.
+CareerTrack is a responsive web application that helps students manage job applications, organize placement activities, and monitor their preparation progress in one place.
 
 ## 🚀 Features
 
-- 📊 Dashboard with application statistics
-- 📝 Add and manage job applications
-- 📅 Track application and follow-up dates
-- ✏️ Edit and update application details
-- 🗑️ Delete job application records
-- 🔍 Search and filter applications
-- 🎯 Track preparation progress across different CSE subjects
-- 💾 Save application data using browser local storage
+- 📊 **Dashboard:** View job application statistics.
+- 📝 **Application Tracker:** Add, edit, and delete job application records.
+- 📅 **Date Tracking:** Store application dates and follow-up dates.
+- 🔔 **Follow-Up Reminders:** Identify overdue, due-today, and upcoming follow-ups.
+- ✅ **Completion Tracking:** Mark follow-up reminders as completed.
+- 🔍 **Search and Filter:** Find applications and filter them by status.
+- 🎯 **Preparation Progress:** Track progress across CSE subjects.
+- 💾 **Local Storage:** Keep application data saved in the browser.
+- 📱 **Responsive Design:** Use the dashboard on desktop and mobile screens.
 
 ## 🛠️ Technologies Used
 
@@ -21,79 +22,31 @@ CareerTrack is a web-based application designed to help students organize their 
 - Browser Local Storage
 - Git and GitHub
 
-## 📂 Project Files
+## 📂 Project Structure
 
-- `index.html` — Website structure
-- `style.css` — Website design and layout
-- `script.js` — Application functionality
+- `index.html` — Application structure
+- `style.css` — Styling and responsive layout
+- `script.js` — Application logic and interactions
 - `README.md` — Project documentation
 
-## ▶️ How to Run the Project
+## ▶️ How to Run Locally
 
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open the project folder in Visual Studio Code.
 3. Open `index.html` in your browser.
-4. Alternatively, use the Live Server extension in VS Code.
+4. Alternatively, run the page using the Live Server extension in VS Code.
 
-## 🎯 Project Goal
+## 💡 Project Objective
 
-The goal of CareerTrack is to help students organize their placement activities, monitor job applications, and track their preparation progress in one place.
+CareerTrack was created to practice frontend web development by building a practical tool for placement preparation and job application management.
+
+## 🔮 Future Improvements
+
+- More advanced dashboard analytics
+- Improved application tracking features
+- Additional placement preparation tools
+- Backend integration and database support
 
 ## 👩‍💻 Developer
 
-Developed as a learning project to practice frontend web development and GitHub.
-
-## 📌 Future Improvements
-
-- Follow-up reminder dashboard
-- Improved user interface
-- Additional placement preparation features# CareerTrack — Smart Placement Preparation & Tracking System
-
-CareerTrack is a web-based application designed to help students organize their job applications and track their placement preparation progress.
-
-## 🚀 Features
-
-- 📊 Dashboard with application statistics
-- 📝 Add and manage job applications
-- 📅 Track application and follow-up dates
-- ✏️ Edit and update application details
-- 🗑️ Delete job application records
-- 🔍 Search and filter applications
-- 🎯 Track preparation progress across different CSE subjects
-- 💾 Save application data using browser local storage
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Browser Local Storage
-- Git and GitHub
-
-## 📂 Project Files
-
-- `index.html` — Website structure
-- `style.css` — Website design and layout
-- `script.js` — Application functionality
-- `README.md` — Project documentation
-
-## ▶️ How to Run the Project
-
-1. Download or clone this repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in your browser.
-4. Alternatively, use the Live Server extension in VS Code.
-
-## 🎯 Project Goal
-
-The goal of CareerTrack is to help students organize their placement activities, monitor job applications, and track their preparation progress in one place.
-
-## 👩‍💻 Developer
-
-Developed as a learning project to practice frontend web development and GitHub.
-
-## 📌 Future Improvements
-
-- Follow-up reminder dashboard
-- Improved user interface
-- Additional placement preparation features
+Developed as a learning project to practice HTML, CSS, JavaScript, and Git/GitHub workflows.
