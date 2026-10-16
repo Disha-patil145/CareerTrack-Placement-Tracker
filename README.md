@@ -2,6 +2,10 @@
 
 CareerTrack is a responsive web application that helps students manage job applications, organize placement activities, and monitor their preparation progress in one place.
 
+## 📸 Project Screenshot
+
+![CareerTrack Dashboard](dashboard.png)
+
 ## 🚀 Features
 
 - 📊 **Dashboard:** View job application statistics.
